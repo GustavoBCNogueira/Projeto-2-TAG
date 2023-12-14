@@ -6,3 +6,5 @@ algorithms for the student-project allocation problem. Journal of Discrete
 Algorithms 5(1):pp. 73-90.](https://eprints.gla.ac.uk/3439/1/irving3439.pdf).
 
 No algoritmo utilizado, os estudantes solicitam a inscrição em um projeto de preferência, essa solicitação pode ser aceita, com a possibilidade de ser definitiva ou não, ou negada, impossibilitando o estudante de submeter a inscrição novamente.
+
+A cada iteração do algoritmo, um grafo bipartido é mostrado na tela, para melhor visualização dos vértices e das arestas é recomendado aumentar a imagem.
