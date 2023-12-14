@@ -64,6 +64,7 @@ def handleStudent(student: tuple, idx: int) -> bool:
                 projects[project][2].pop(0)
                 projects[project][2].append((student[2], idx))
                 projects[project][2].sort()
+                students[std][1].remove(project)
                 stdFree[idx] = False
                 stdFree[std] = True
                 return True
