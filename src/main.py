@@ -68,6 +68,9 @@ def handleStudent(student: tuple, idx: int) -> bool:
                 stdFree[idx] = False
                 stdFree[std] = True
                 return True
+            else:
+                students[idx][1].remove(project)
+
     return False
 
 
